@@ -1,0 +1,26 @@
+{
+  "name": "react-static",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simply-simpy/react-static.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/simply-simpy/react-static/issues"
+  },
+  "homepage": "https://github.com/simply-simpy/react-static#readme",
+  "devDependencies": {
+    "react": "^15.4.2",
+    "static-react": "^3.2.0"
+  },
+  "scripts": {
+    "start": "static-react components/Root.js > index.html"
+  }
+}
